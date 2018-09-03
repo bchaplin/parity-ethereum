@@ -27,6 +27,7 @@ cache:
     - stable
     - beta
     - tags
+    - pr-9441
 
 .publishable_branches:             # list of git refs for publishing builds to the "production" locations
   only:                            &publishable_branches
